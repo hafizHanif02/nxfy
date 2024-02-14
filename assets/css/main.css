@@ -93,13 +93,13 @@
   --clr-common-placeholder: #8a8787;
   --clr-theme-1: #021126;
   /* --clr-theme-2: #14cf93; */
-  --clr-theme-2: #2541B2;
+  --clr-theme-2: #00A6FB;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #021126;
   --clr-background-primary: #021126;
   --clr-bg-1: #021126;
   /* --clr-bg-2: #14cf93; */
-  --clr-bg-2: #2541B2;
+  --clr-bg-2: #00A6FB;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
   --clr-bg-5: #F7F7F7;
@@ -1131,6 +1131,16 @@ video {
 }
 .tpl__theme-color {
   color: var(--clr-theme-2);
+}
+
+.tpl__theme-color div div{
+  background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .has-border-bottom {
