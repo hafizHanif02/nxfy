@@ -66,6 +66,11 @@
 }
 
 @font-face {
+  font-family: Outfit-Medium;
+  src: url(../fonts/Outfit-Medium.ttf);
+}
+
+@font-face {
   font-family: Outfit-Bold;
   src: url(../fonts/Outfit-Bold.ttf);
 }
@@ -76,7 +81,7 @@
   @font-family declaration
   */
   --tpl-ff-heading: 'Outfit-Bold', 'Archivo', sans-serif;
-  --tpl-ff-body: 'Tenor Sans', sans-serif;
+  --tpl-ff-body: 'Outfit-Medium','Tenor Sans', sans-serif;
   --tpl-ff-fontawesome: 'Font Awesome 6 Pro';
   --tpl-ff-handwriting: 'autographyregular';
   /**
