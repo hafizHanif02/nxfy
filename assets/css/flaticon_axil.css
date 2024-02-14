@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "flaticon_axil";
-    src: url("../fonts/flaticon_axil.ttf?af1b53e90009168e14def3a8ddb99edb") format("truetype"),
-url("../fonts/flaticon_axil.woff?af1b53e90009168e14def3a8ddb99edb") format("woff"),
-url("../fonts/flaticon_axil.woff2?af1b53e90009168e14def3a8ddb99edb") format("woff2"),
-url("../fonts/flaticon_axil.eot?af1b53e90009168e14def3a8ddb99edb#iefix") format("embedded-opentype"),
-url("../fonts/flaticon_axil.svg?af1b53e90009168e14def3a8ddb99edb#flaticon_axil") format("svg");
+    font-family: "flaticon_nxfy";
+    src: url("../fonts/flaticon_nxfy.ttf?af1b53e90009168e14def3a8ddb99edb") format("truetype"),
+url("../fonts/flaticon_nxfy.woff?af1b53e90009168e14def3a8ddb99edb") format("woff"),
+url("../fonts/flaticon_nxfy.woff2?af1b53e90009168e14def3a8ddb99edb") format("woff2"),
+url("../fonts/flaticon_nxfy.eot?af1b53e90009168e14def3a8ddb99edb#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_nxfy.svg?af1b53e90009168e14def3a8ddb99edb#flaticon_nxfy") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon_axil !important;
+    font-family: flaticon_nxfy !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
