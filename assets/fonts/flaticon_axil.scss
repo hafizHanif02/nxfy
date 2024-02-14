@@ -1,16 +1,16 @@
-$flaticon_axil-font: "flaticon_axil";
+$flaticon_nxfy-font: "flaticon_nxfy";
 
 @font-face {
-    font-family: $flaticon_axil-font;
-    src: url("./flaticon_axil.ttf?af1b53e90009168e14def3a8ddb99edb") format("truetype"),
-url("./flaticon_axil.woff?af1b53e90009168e14def3a8ddb99edb") format("woff"),
-url("./flaticon_axil.woff2?af1b53e90009168e14def3a8ddb99edb") format("woff2"),
-url("./flaticon_axil.eot?af1b53e90009168e14def3a8ddb99edb#iefix") format("embedded-opentype"),
-url("./flaticon_axil.svg?af1b53e90009168e14def3a8ddb99edb#flaticon_axil") format("svg");
+    font-family: $flaticon_nxfy-font;
+    src: url("./flaticon_nxfy.ttf?af1b53e90009168e14def3a8ddb99edb") format("truetype"),
+url("./flaticon_nxfy.woff?af1b53e90009168e14def3a8ddb99edb") format("woff"),
+url("./flaticon_nxfy.woff2?af1b53e90009168e14def3a8ddb99edb") format("woff2"),
+url("./flaticon_nxfy.eot?af1b53e90009168e14def3a8ddb99edb#iefix") format("embedded-opentype"),
+url("./flaticon_nxfy.svg?af1b53e90009168e14def3a8ddb99edb#flaticon_nxfy") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon_axil !important;
+    font-family: flaticon_nxfy !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
@@ -20,7 +20,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-$flaticon_axil-map: (
+$flaticon_nxfy-map: (
     "paper-plane": "\f101",
     "hand": "\f102",
     "hi": "\f103",
@@ -65,125 +65,125 @@ $flaticon_axil-map: (
 );
 
 .flaticon-paper-plane:before {
-    content: map-get($flaticon_axil-map, "paper-plane");
+    content: map-get($flaticon_nxfy-map, "paper-plane");
 }
 .flaticon-hand:before {
-    content: map-get($flaticon_axil-map, "hand");
+    content: map-get($flaticon_nxfy-map, "hand");
 }
 .flaticon-hi:before {
-    content: map-get($flaticon_axil-map, "hi");
+    content: map-get($flaticon_nxfy-map, "hi");
 }
 .flaticon-right-arrow:before {
-    content: map-get($flaticon_axil-map, "right-arrow");
+    content: map-get($flaticon_nxfy-map, "right-arrow");
 }
 .flaticon-next:before {
-    content: map-get($flaticon_axil-map, "next");
+    content: map-get($flaticon_nxfy-map, "next");
 }
 .flaticon-down-arrow:before {
-    content: map-get($flaticon_axil-map, "down-arrow");
+    content: map-get($flaticon_nxfy-map, "down-arrow");
 }
 .flaticon-email:before {
-    content: map-get($flaticon_axil-map, "email");
+    content: map-get($flaticon_nxfy-map, "email");
 }
 .flaticon-phone-call:before {
-    content: map-get($flaticon_axil-map, "phone-call");
+    content: map-get($flaticon_nxfy-map, "phone-call");
 }
 .flaticon-telephone:before {
-    content: map-get($flaticon_axil-map, "telephone");
+    content: map-get($flaticon_nxfy-map, "telephone");
 }
 .flaticon-up-left:before {
-    content: map-get($flaticon_axil-map, "up-left");
+    content: map-get($flaticon_nxfy-map, "up-left");
 }
 .flaticon-right:before {
-    content: map-get($flaticon_axil-map, "right");
+    content: map-get($flaticon_nxfy-map, "right");
 }
 .flaticon-right-arrow-1:before {
-    content: map-get($flaticon_axil-map, "right-arrow-1");
+    content: map-get($flaticon_nxfy-map, "right-arrow-1");
 }
 .flaticon-arrow:before {
-    content: map-get($flaticon_axil-map, "arrow");
+    content: map-get($flaticon_nxfy-map, "arrow");
 }
 .flaticon-dial-pad:before {
-    content: map-get($flaticon_axil-map, "dial-pad");
+    content: map-get($flaticon_nxfy-map, "dial-pad");
 }
 .flaticon-instagram-1:before {
-    content: map-get($flaticon_axil-map, "instagram-1");
+    content: map-get($flaticon_nxfy-map, "instagram-1");
 }
 .flaticon-instagram-2:before {
-    content: map-get($flaticon_axil-map, "instagram-2");
+    content: map-get($flaticon_nxfy-map, "instagram-2");
 }
 .flaticon-pencil:before {
-    content: map-get($flaticon_axil-map, "pencil");
+    content: map-get($flaticon_nxfy-map, "pencil");
 }
 .flaticon-paper-plane-1:before {
-    content: map-get($flaticon_axil-map, "paper-plane-1");
+    content: map-get($flaticon_nxfy-map, "paper-plane-1");
 }
 .flaticon-play-button:before {
-    content: map-get($flaticon_axil-map, "play-button");
+    content: map-get($flaticon_nxfy-map, "play-button");
 }
 .flaticon-share:before {
-    content: map-get($flaticon_axil-map, "share");
+    content: map-get($flaticon_nxfy-map, "share");
 }
 .flaticon-facebook:before {
-    content: map-get($flaticon_axil-map, "facebook");
+    content: map-get($flaticon_nxfy-map, "facebook");
 }
 .flaticon-download:before {
-    content: map-get($flaticon_axil-map, "download");
+    content: map-get($flaticon_nxfy-map, "download");
 }
 .flaticon-file:before {
-    content: map-get($flaticon_axil-map, "file");
+    content: map-get($flaticon_nxfy-map, "file");
 }
 .flaticon-comment:before {
-    content: map-get($flaticon_axil-map, "comment");
+    content: map-get($flaticon_nxfy-map, "comment");
 }
 .flaticon-chat:before {
-    content: map-get($flaticon_axil-map, "chat");
+    content: map-get($flaticon_nxfy-map, "chat");
 }
 .flaticon-chat-1:before {
-    content: map-get($flaticon_axil-map, "chat-1");
+    content: map-get($flaticon_nxfy-map, "chat-1");
 }
 .flaticon-dark-mode:before {
-    content: map-get($flaticon_axil-map, "dark-mode");
+    content: map-get($flaticon_nxfy-map, "dark-mode");
 }
 .flaticon-pin:before {
-    content: map-get($flaticon_axil-map, "pin");
+    content: map-get($flaticon_nxfy-map, "pin");
 }
 .flaticon-envelope:before {
-    content: map-get($flaticon_axil-map, "envelope");
+    content: map-get($flaticon_nxfy-map, "envelope");
 }
 .flaticon-target:before {
-    content: map-get($flaticon_axil-map, "target");
+    content: map-get($flaticon_nxfy-map, "target");
 }
 .flaticon-right-up:before {
-    content: map-get($flaticon_axil-map, "right-up");
+    content: map-get($flaticon_nxfy-map, "right-up");
 }
 .flaticon-up-right:before {
-    content: map-get($flaticon_axil-map, "up-right");
+    content: map-get($flaticon_nxfy-map, "up-right");
 }
 .flaticon-left-quote:before {
-    content: map-get($flaticon_axil-map, "left-quote");
+    content: map-get($flaticon_nxfy-map, "left-quote");
 }
 .flaticon-edit:before {
-    content: map-get($flaticon_axil-map, "edit");
+    content: map-get($flaticon_nxfy-map, "edit");
 }
 .flaticon-search:before {
-    content: map-get($flaticon_axil-map, "search");
+    content: map-get($flaticon_nxfy-map, "search");
 }
 .flaticon-heart:before {
-    content: map-get($flaticon_axil-map, "heart");
+    content: map-get($flaticon_nxfy-map, "heart");
 }
 .flaticon-facebook-1:before {
-    content: map-get($flaticon_axil-map, "facebook-1");
+    content: map-get($flaticon_nxfy-map, "facebook-1");
 }
 .flaticon-twitter:before {
-    content: map-get($flaticon_axil-map, "twitter");
+    content: map-get($flaticon_nxfy-map, "twitter");
 }
 .flaticon-youtube:before {
-    content: map-get($flaticon_axil-map, "youtube");
+    content: map-get($flaticon_nxfy-map, "youtube");
 }
 .flaticon-instagram-3:before {
-    content: map-get($flaticon_axil-map, "instagram-3");
+    content: map-get($flaticon_nxfy-map, "instagram-3");
 }
 .flaticon-facebook-2:before {
-    content: map-get($flaticon_axil-map, "facebook-2");
+    content: map-get($flaticon_nxfy-map, "facebook-2");
 }
