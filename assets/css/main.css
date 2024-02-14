@@ -64,16 +64,13 @@
   font-family: OutfitRegular;
   src: url(../fonts/Outfit-Regular.ttf);
 }
-h1{
-  font-family: 'OutfitRegular', sans-serif !important;
-} 
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Tenor+Sans&display=swap");
 :root {
   /**
   @font-family declaration
   */
-  --tpl-ff-heading: 'Archivo', sans-serif;
+  --tpl-ff-heading: 'OutfitRegular', 'Archivo', sans-serif;
   --tpl-ff-body: 'Tenor Sans', sans-serif;
   --tpl-ff-fontawesome: 'Font Awesome 6 Pro';
   --tpl-ff-handwriting: 'autographyregular';
