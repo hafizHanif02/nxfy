@@ -10963,7 +10963,7 @@ body {
   content: "";
   left: 0;
   top: 0;
-  background: linear-gradient(180deg, rgba(20, 207, 147, 0.8) 0%, #0D825C 100%);
+  background: linear-gradient(270deg, #00A6FB, #2344b4);
   transition: 0.3s;
   opacity: 0;
   visibility: hidden;
@@ -10974,7 +10974,8 @@ body {
 @media (hover: none) {
   .work-process-box {
     border-color: transparent;
-    background: linear-gradient(180deg, rgba(20, 207, 147, 0.8) 0%, #0D825C 100%);
+    background: linear-gradient(270deg, #00A6FB, #2344b4);
+    
   }
 }
 .work-process-box:hover {
