@@ -5616,7 +5616,7 @@ body {
   color: #A5A5A5;
   writing-mode: vertical-rl;
   letter-spacing: 7px;
-  font-family: "Archivo", sans-serif;
+  font-family: "OutfitRegular", "Archivo", sans-serif;
   position: relative;
   line-height: 1;
 }
@@ -6970,7 +6970,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   color: var(--clr-common-white);
-  font-family: "Archivo", sans-serif;
+  font-family: "OutfitRegular", "Archivo", sans-serif;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -6992,7 +6992,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   color: var(--clr-common-black);
-  font-family: "Archivo", sans-serif;
+  font-family: "OutfitRegular", "Archivo", sans-serif;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -10153,7 +10153,7 @@ body {
   line-height: 1.08;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Archivo", sans-serif;
+  font-family: "OutfitRegular", "Archivo", sans-serif;
   color: #A5A5A5;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
