@@ -88,16 +88,16 @@
   @color declaration
   */
   --clr-common-white: #eeeeee;
-  --clr-common-black: #222222;
+  --clr-common-black: #021126;
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
-  --clr-theme-1: #222222;
+  --clr-theme-1: #021126;
   /* --clr-theme-2: #14cf93; */
   --clr-theme-2: #2541B2;
   --clr-theme-3: #7c7c7c;
-  --clr-theme-primary: #222222;
-  --clr-background-primary: #222222;
-  --clr-bg-1: #222222;
+  --clr-theme-primary: #021126;
+  --clr-background-primary: #021126;
+  --clr-bg-1: #021126;
   /* --clr-bg-2: #14cf93; */
   --clr-bg-2: #2541B2;
   --clr-bg-3: #fffcf6;
@@ -4273,13 +4273,13 @@ Hero-6 Animation
 
 .marquee__text-title {
   font-size: 32px;
-  color: #222222;
+  color: #021126;
   line-height: 1;
   text-transform: uppercase;
 }
 .marquee__text-title.text-stroke {
   color: transparent;
-  -webkit-text-stroke: 1px #222222;
+  -webkit-text-stroke: 1px #021126;
 }
 
 .marquee__text-icon {
@@ -11347,15 +11347,15 @@ body {
   @color declaration
   */
   --clr-common-white: #eeeeee;
-  --clr-common-black: #222222;
+  --clr-common-black: #021126;
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
-  --clr-theme-1: #222222;
+  --clr-theme-1: #021126;
   --clr-theme-2: #14cf93;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #eeeeee;
-  --clr-background-primary: #222222;
-  --clr-bg-1: #222222;
+  --clr-background-primary: #021126;
+  --clr-bg-1: #021126;
   --clr-bg-2: #14cf93;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
@@ -11567,7 +11567,7 @@ body {
   color: var(--clr-common-white);
 }
 .theme-dark .choose-area-content .thumb-wrapper::after {
-  background: linear-gradient(180deg, #222222 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(180deg, #021126 0%, rgba(255, 255, 255, 0) 100%);
 }
 .theme-dark .choose-area-content p {
   color: var(--clr-common-white);
