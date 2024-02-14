@@ -57,8 +57,17 @@
 	42. video css
 	43. work css
 	44. sign css
+  
 
 **********************************************/
+@font-face {
+  font-family: OutfitRegular;
+  src: url(../fonts/Outfit-Regular.ttf);
+}
+h1{
+  font-family: 'OutfitRegular', sans-serif !important;
+} 
+
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Tenor+Sans&display=swap");
 :root {
   /**
@@ -76,12 +85,14 @@
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
   --clr-theme-1: #222222;
-  --clr-theme-2: #14cf93;
+  /* --clr-theme-2: #14cf93; */
+  --clr-theme-2: #2541B2;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #222222;
   --clr-background-primary: #222222;
   --clr-bg-1: #222222;
-  --clr-bg-2: #14cf93;
+  /* --clr-bg-2: #14cf93; */
+  --clr-bg-2: #2541B2;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
   --clr-bg-5: #F7F7F7;
