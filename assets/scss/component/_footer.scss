@@ -275,14 +275,14 @@ label {
 		}
 
 		svg {
-			stroke: #14CF93;
+			stroke: #1961C9;
 		}
 	}
 }
 
 [type="checkbox"]:checked+.check {
 	svg {
-		stroke: #14CF93;
+		stroke: #1961C9;
 
 		path {
 			stroke-dashoffset: 60;
@@ -607,7 +607,7 @@ label {
 		position: absolute;
 		width: 304px;
 		height: 304px;
-		background: #14CF93;
+		background: #1961C9;
 		opacity: 0.4;
 		filter: blur(175px);
 		bottom: 27px;

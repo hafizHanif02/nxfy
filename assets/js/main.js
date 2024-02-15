@@ -78,7 +78,7 @@
 	00. PreLoader
 	========================================*/
   windowOn.on("load", function () {
-  	$("#ax-loader-wrap").fadeOut(500);
+    $("#ax-loader-wrap").fadeOut(500);
   });
 
   /*======================================
@@ -1399,7 +1399,7 @@
       type: "words,chars,capitalize",
     });
     let chars = mySplitText.chars;
-    let folksGradient = chroma.scale(["#14CF93", "#F8EC3A"]);
+    let folksGradient = chroma.scale(["#1961C9", "#F8EC3A"]);
     folksBD.to(chars, {
       duration: 0.5,
       scaleY: 0.6,
@@ -1450,7 +1450,7 @@
       0.7
     );
     folksBD.to(chars, {
-      color: "#14CF93",
+      color: "#1961C9",
       duration: 1.4,
       stagger: 0.05,
     });
