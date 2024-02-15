@@ -1605,8 +1605,8 @@ body.mfp-content {
   border-radius: 50%;
   font-size: 38px;
   font-weight: 400;
-  background: var(--clr-theme-2);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  /* background: var(--clr-theme-2);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1618,12 +1618,12 @@ body.mfp-content {
   width: 100%;
   animation: rotate 20s linear infinite;
 }
-.circle-btn.is-green .icon-box {
+/* .circle-btn.is-green .icon-box {
   background: var(--clr-theme-2);
   border-color: var(--clr-theme-2);
   color: var(--clr-common-white);
   transform: rotate(-45deg);
-}
+} */
 .circle-btn.is-green .icon-box i {
   font-size: 35px;
 }
@@ -6720,12 +6720,12 @@ body {
   text-align: center;
 }
 .brand-item img {
-  filter: grayscale(1);
+  /* filter: grayscale(1);
   -webkit-transition: all 0.5s ease-out 0s;
   -moz-transition: all 0.5s ease-out 0s;
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
-  transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s; */
   display: inline-block;
   max-width: 200px;
 }
@@ -8367,7 +8367,8 @@ body {
 
 .service__content {
   padding: 45px 45px 65px;
-  background: var(--clr-theme-2);
+  /* background: var(--clr-theme-2); */
+  background: linear-gradient(270deg, #00A6FB, #2344b4);
   width: calc(100% - 30px);
   height: calc(100% - 30px);
   margin: auto;
