@@ -888,7 +888,7 @@ p.large {
 }
 
 .bg-theme-2 {
-  background: var(--clr-theme-2);
+  /* background: var(--clr-theme-2); */
 }
 
 .bg-theme-3 {
@@ -3664,7 +3664,7 @@ Hero-6 Animation
 
 .meta-item-message {
   display: flex;
-  gap: 0 10px;
+  /* gap: 0 10px; */
   align-items: center;
 }
 .meta-item-message:hover .meta-item__icon {
@@ -11073,7 +11073,7 @@ body {
 }
 
 .author__quote-box {
-  padding: 30px 40px;
+  /* padding: 30px 40px; */
   display: flex;
   flex-direction: column;
   align-items: center;
