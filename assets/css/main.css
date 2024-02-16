@@ -5711,7 +5711,7 @@ body {
   position: absolute;
   right: 0;
   bottom: 30px;
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__btn {
