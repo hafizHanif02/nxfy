@@ -241,6 +241,24 @@ h6 {
   transition: all 0.3s ease-out 0s;
 }
 
+.hero-area {
+  position: relative;
+  overflow: hidden;
+}
+
+#fluidCanvas {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  z-index: 0;
+}
+.hero-area > *:not(#fluidCanvas) {
+  /* position: relative; */
+  z-index: 1;
+}
+
 h1 {
   font-size: 100px;
 }
@@ -3193,6 +3211,9 @@ Hero-6 Animation
   color: var(--clr-theme-primary);
   margin-bottom: 0;
 }
+.meta-item__text p a{
+  color: #fff;
+}
 .sticky .header-2__logo .logo-white {
   display: none;
 }
@@ -5590,7 +5611,7 @@ body {
   writing-mode: vertical-rl;
   position: absolute;
   left: 15px;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 @media screen and (min-width: 1790px) {
@@ -5677,7 +5698,8 @@ body {
 }
 
 .hero__title {
-  margin-bottom: 0;
+  margin-bottom: 0; 
+  color: #fff;      
 }
 .hero__title .regular-text {
   font-weight: 400;
@@ -5689,6 +5711,7 @@ body {
   right: 0;
   top: 120px;
   margin-bottom: 0;
+  color: #fff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__text {
