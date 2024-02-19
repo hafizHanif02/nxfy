@@ -3211,9 +3211,7 @@ Hero-6 Animation
   color: var(--clr-theme-primary);
   margin-bottom: 0;
 }
-.meta-item__text p a{
-  color: #fff;
-}
+
 .sticky .header-2__logo .logo-white {
   display: none;
 }
