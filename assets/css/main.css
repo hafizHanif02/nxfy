@@ -6027,7 +6027,7 @@ body {
 .hero__shape-1 {
   position: absolute;
   top: 217px;
-  left: 65%;
+  left: 60%;
   animation: zoomInOut 3s infinite linear;
 }
 .hero__shape-2 {
