@@ -241,7 +241,7 @@ h6 {
   transition: all 0.3s ease-out 0s;
 }
 
-.hero-area {
+.canvas-effect {
   position: relative;
   overflow: hidden;
 }
@@ -254,8 +254,8 @@ h6 {
   height: 120vh;
   z-index: 0;
 }
-.hero-area > *:not(#fluidCanvas) {
-  /* position: relative; */
+.canvas-effect > *:not(#fluidCanvas) {
+
   z-index: 1;
 }
 
