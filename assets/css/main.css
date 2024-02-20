@@ -5939,6 +5939,7 @@ body {
 .hero__title {
   margin-bottom: 0;
   color: #fff;
+  line-height: 1;
 }
 .hero__title .regular-text {
   font-weight: 400;
@@ -5981,12 +5982,14 @@ body {
   only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__btn {
     bottom: 0px;
+    right: 100px;
     transform: rotate(-45deg) scale(0.8);
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero__btn {
     bottom: 60px;
+    right: 100px;
     transform: rotate(-45deg) scale(0.5);
     transform-origin: right bottom;
   }
