@@ -260,12 +260,8 @@ h6 {
 .canvas-effect > *:not(#fluidCanvas) {
   z-index: 1;
 }
-img.hero__shape-1 {
-  animation: rotateImage 2s ease-in-out infinite;
-}
-
-img.hero__shape-2 {
-  animation: rotateImage 2s ease-in-out infinite;
+img.hero__shape-1 ,img.hero__shape-2 , img.hero__shape-2 , img.contact-area__shape-1 , img.about-area__shape-1, img.portfolio-slide-1-shape-1{
+  animation: rotateImage 2s ease-in-out infinite !important;
 }
 
 @keyframes rotateImage {
@@ -17792,7 +17788,8 @@ label {
 .ax-loader-wrap {
   overflow: hidden;
   height: 100%;
-  background-color: rgb(29, 29, 48);
+  /* background-color: rgb(29, 29, 48); */
+  background-color: rgb(2, 17, 38);
   z-index: 1000;
   position: relative;
 }
